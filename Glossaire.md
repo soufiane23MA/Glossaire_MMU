@@ -13,25 +13,32 @@
 - [English](#english)
 
 ## Général
+
+
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
 
-		l'envirenement à installer pour exécuter un script en pHp est un logiciel qui permet au navigateur d'interpréter le script php.
-		Laragon, MAMP et XAMPP sont tous des environnements qui regroupent PHP et MYSQL.  
+
+    l'envirenement à installer pour exécuter un script en pHp est un logiciel qui permet au navigateur d'interpréter le script php.
+    Laragon, MAMP et XAMPP sont tous des environnements qui regroupent PHP et MYSQL. 
+    
+     
 2.	Qu’est-ce qu’un algorithme ?
 
-		Un Algorithme est un ensemble d'instruction que la machine exécute pour résoudre un probléme ou éxecute une tache précise.
+
+
+    Un Algorithme est un ensemble d'instruction que la machine exécute pour résoudre un probléme ou éxecute une tache précise.
 
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
 
-		Une Variable est un contneur (comme un tirroir) qui permet des stocker tempérerement différentes valeur : ( des Entiers, des Boolens , chaine de caractères , decimale...)
-		en PHP le le symbole '$' préfixe une variable. Pour nommer une variable il faut respecter quelque regles: pas d'espace, pas de caractére 
-		spécial tél(-,%,/..etc), ne commence pas par un chiffre, seul le "_ "(underscore) est autorisé. Le nom de variable est sencible à la 
-		casse: c'est a dire ' $VARIABLE ' et differente de ' $variable '
+    Une Variable est un contneur (comme un tirroir) qui permet des stocker tempérerement différentes valeur : ( des Entiers, des Boolens , chaine de caractères , decimale...)
+    en PHP le le symbole '$' préfixe une variable. Pour nommer une variable il faut respecter quelque regles: pas d'espace, pas de caractére 
+    spécial tél(-,%,/..etc), ne commence pas par un chiffre, seul le "_ "(underscore) est autorisé. Le nom de variable est sencible à la 
+    casse: c'est a dire ' $VARIABLE ' et differente de ' $variable '
 
 4.	Qu’est-ce que la portée d’une variable ?
 Une variable peux être déclaré soit dans un bloc de code (dans une fonction), dans ce cas on dit que la variable est locale.
 une variable qui est déclaré en dehors d'une fonction est une variable globale, elle est accessible partout dans le code .
-	 
+   
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 une constante est un conteneur qui permet de stocker des donneés , la difféernce avec une variable , c'est que la constante on ne peux lui assigné une autre valeur , alosrs qu'une variable peux changer de valeurs à n'importe que
 moment du code.( on dit que une constante est immuable )
@@ -59,7 +66,7 @@ Les superglobales sont définies automatiquement par PHP et ne nécessitent aucu
 
 
 
-	
+  
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 les types dites primitif d'une variable en PHP sont les suivant:
 
