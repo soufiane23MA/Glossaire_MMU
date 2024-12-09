@@ -29,12 +29,12 @@
 		casse: c'est a dire ' $VARIABLE ' et differente de ' $variable '
 
 4.	Qu’est-ce que la portée d’une variable ?
-	 Une variable peux être déclaré soit dans un bloc de code (dans une fonction), dans ce cas on dit que la variable est locale.
-	 une variable qui est déclaré en dehors d'une fonction est une variable globale, elle est accessible partout dans le code .
+Une variable peux être déclaré soit dans un bloc de code (dans une fonction), dans ce cas on dit que la variable est locale.
+une variable qui est déclaré en dehors d'une fonction est une variable globale, elle est accessible partout dans le code .
 	 
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
-	une constante est un conteneur qui permet de stocker des donneés , la difféernce avec une variable , c'est que la constante on ne peux lui assigné une autre valeur , alosrs qu'une variable peux changer de valeurs à n'importe que
-	moment du code.( on dit que une constante est immuable )
+une constante est un conteneur qui permet de stocker des donneés , la difféernce avec une variable , c'est que la constante on ne peux lui assigné une autre valeur , alosrs qu'une variable peux changer de valeurs à n'importe que
+moment du code.( on dit que une constante est immuable )
 
 
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation :
@@ -76,7 +76,7 @@ les types dites primitif d'une variable en PHP sont les suivant:
  => Tableux Mixte : Les tableaux mixtes combinent des indices numériques et associatifs.
 Ils sont pris en charge par PHP mais doivent être utilisés avec précaution pour éviter la confusion.
 
-) 
+
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles.
 Les structures de contrôle en algorithme permettent de définir comment le flux d'exécution d'un programme se déroule. Elles servent à prendre des décisions,
 les structures de contrôles sont:
@@ -146,15 +146,47 @@ HTML (HyperText Markup Language) c'est un langage de balisage utilisé pour stru
  Il permet de contrôler l'apparence visuelle d'une page web, comme les couleurs, les polices, les marges, les tailles, les positions
 
 
-20.	Définir Javascript
+20.	Définir Javascript:
+JavaScript est un language de programmation trés populaire et utilisé pour rajouter des fonctionnalitées interactives et dynamiques aux sites web
+il est généralement exécuté directement dans le navigateur web de l'utilisateur ce qui permet des interactions rapides sans avoir besoin de 
+recharger les pages
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+JSON( JavaScript Object Notation ) est un format léger de données structuré utilisé pour l'échange et le stockage de données.
+il est facile à lire et à écrire et simple à analyser et générer pour les machines.Il est largement utilisé particuliérement pour les échanges entre un client(navigateur)et un serveur.
+
+
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ?
+les sélecteur CSS définissent les éléments sur lequelles s'applique un ensemble de régles CSS.
+les différentes sélécteurs:
+-sélecteur de type : c'est un sélecteur simple permet de cibler les éléments qui correspondent au nom indiqué.
+- sélecteur de classe: permet de cibler les éléments en fonction de la valeur de leur attribut , il cible 
+n'importe quel élement qui posséde une classe.
+- sélecteur d'identifiant: il permet un élement en fonction de la valeur de son attribut "id" unique.
+- le sélecteur universel:" * " permet de cibler tous les noeuds du documment .
+
 24.	Quelle balise HTML permet de créer un lien hypertexte ?
+la balise HTML qui permet de créer un lien c'est "<a></a>". il a un attribut (href= ""), qui permet de cibler l'URL souhaité.
 25.	Qu’est-ce qu’une requête AJAX ?
+Une requête AJAX (Asynchronous JavaScript and XML) est une méthode permettant d'échanger les données entre un client(navigateur) et un 
+serveur de maniére 
+ asynchrone, sans recharger la page web entére.Cela rend les application web plus intéractives et rapides.
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
+le sélecteur de classe permet de sélectinner tous les élements d'une classe, et le sélecteur (#) permet de cibler un identifiant spécifique.
 27.	Définir le responsive design
+
+le responsive design est une approche de conception web qui vise à créer des sites internet capables de s'adapter automatiquement à différents types d'appareils 
+(ordinateurs, tablettes, smartphones, etc.) et tailles d'écran. L'objectif est de garantir une expérience utilisateur optimale, 
+peu importe la résolution ou l'appareil utilisé. Grâce aux media queries, aux grilles flexibles et aux unités relatives, il est possible de concevoir des interfaces web adaptatives.
+
 28.	Qu’est-ce que le templating ?
+
+Le templating est une technique utilisée en développement web pour séparer la structure HTML (ou tout autre langage de présentation) de la logique métier 
+(souvent gérée par un langage de programmation comme PHP, JavaScript, ou Python).
+ Il permet de générer dynamiquement des pages web en insérant des données dans des modèles pré-définis appelés templates.
+ L'objectif de templating est 
+
+
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
 31.	Qu’est-ce qu’un « media query » ?
