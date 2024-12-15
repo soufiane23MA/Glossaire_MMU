@@ -265,10 +265,25 @@ La programmation orientée objet est une méthode pour organiser le code, on dé
 50.Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 * Étendre une classe permet de créer une nouvelle classe qui hérite des propriétés et méthodes d'une classe existante. 
   Ce concept clé s'appelle "l'héritage", qui favorise la réutilisation et l'extensibilité du code.
-  
-Dans l'exemple ci-dessus, les classes Chien et Chat étendent la classe Animal et ajoutent leurs propres comportements spécifiques.
+* exemple: classe Voiture ( la classe Parent ) Contient les propriétés communes à toutes les voitures : marque et modele.
+ Fournit une méthode afficherDetails() pour afficher les informations générales d’une voiture.
+ classe VoitureElectrique, elle va hériter les propriétés de la classe parent (Voiture) à savoir marque et model et la methode afficherDetails.
+ et elle Ajoute une propriété spécifique a elle( enfants ) : autonomie (en kilomètres).
+
+ 
 51.Définir l’opérateur de résolution de portée
+* L’opérateur de résolution de portée (::) en PHP est utilisé pour accéder à des éléments statiques,
+ des constantes de classe, ou pour appeler des méthodes de classe sans créer d'instance de la classe.
+* Il permet egalement a accédeé à une constante de classe
+=> Appeler une méthode statique
+=>Référencer une classe parente dans une classe enfant (via parent::)
+=>Accéder à la classe actuelle ou à une classe spécifique (via self:: ou static::).
+
 52.Définir une méthode / propriété statique
+* En PHP, une méthode ou propriété statique appartient à la classe elle-même et non à une instance de la classe. Cela signifie que :
+ Elle peut être appelée ou utilisée sans avoir à créer d'objet.
+ Elle est partagée par toutes les instances de la classe (une seule copie existe).
+
 53.Définir le polymorphisme en POO
 54.Définir une méthode / classe abstraite ?
 55 Définir le chaînage de méthodes
