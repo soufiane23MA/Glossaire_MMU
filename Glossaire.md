@@ -51,9 +51,9 @@ une superglobale est une variable (PHP) prédéfinie accessible partout dans un 
 
 *-$_FILES: contien les information sur les fichiers envoyés via un formulaire.(La superglobale $_FILES en PHP est utilisée pour gérer les fichiers envoyés via un formulaire HTML utilisant l'attribut enctype="multipart/form-data".Elle contient des informations sur chaque fichier téléchargé, comme le nom, le type, la taille, l'emplacement temporaire et les éventuelles erreurs de téléchargement.)
 
-*$_REQUEST : Combine les données de $_GET, $_POST et $_COOKIE.
+*-$_REQUEST : Combine les données de $_GET, $_POST et $_COOKIE.
 
-*$_ENV : Contient les variables d'environnement.
+*-$_ENV : Contient les variables d'environnement.
 $GLOBALS : Contient une référence à toutes les variables globales dans un script.
 
 Les superglobales sont définies automatiquement par PHP et ne nécessitent aucune configuration particulière pour être utilisées.
@@ -140,6 +140,7 @@ Il permet de créer des pages web en définissant la disposition et les élémen
 comme les titres, les paragraphes, les images, les liens, etc.
 
 19.Définir CSS:
+
 (Cascading Style Sheets) C'est un langage utilisé pour décrire la présentation et le style d'un document HTML.
 Il permet de contrôler l'apparence visuelle d'une page web, comme les couleurs, les polices, les marges, les tailles, les positions
 
@@ -154,7 +155,11 @@ JSON( JavaScript Object Notation ) est un format léger de données structuré u
 il est facile à lire et à écrire et simple à analyser et générer pour les machines.Il est largement utilisé particuliérement pour les échanges entre un client(navigateur)et un serveur.
 
 22.Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
+
+Oui, on peut interpréter du JavaScript côté serveur grâce à des environnements d'exécution comme Node.js
+
 23.Qu’est-ce qu’un sélecteur CSS ?
+
 les sélecteur CSS définissent les éléments sur lequelles s'applique un ensemble de régles CSS.
 les différentes sélécteurs:
 -sélecteur de type : c'est un sélecteur simple permet de cibler les éléments qui correspondent au nom indiqué.
@@ -189,8 +194,19 @@ Il permet de générer dynamiquement des pages web en insérant des données dan
 L'objectif de templating est
 
 29. Qu’est-ce qu’une fonction anonyme en Javascript ?
+
+Une fonction anonyme en JavaScript est une fonction qui n’a pas de nom explicite. 
+Elle est souvent utilisée comme une expression ou une fonction de rappel (callback).
+
 30. Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
+
+pour ajouter un élement à la fin d'un tableau en Javascript en utilise la méthode push().
+
 31. Qu’est-ce qu’un « media query » ?
+
+Un media query est une fonctionnalité de CSS utilisée pour appliquer des styles spécifiques en fonction des caractéristiques du périphérique ou de la fenêtre d’affichage.
+Les media queries permettent de créer des designs responsives, qui s’adaptent à différents écrans (ordinateur, tablette, mobile, etc.).
+
 32. Qu’est-ce qu’un pseudo élément en CSS ?
 33. Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
 34. Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
