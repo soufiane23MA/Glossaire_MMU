@@ -208,8 +208,26 @@ Un media query est une fonctionnalité de CSS utilisée pour appliquer des style
 Les media queries permettent de créer des designs responsives, qui s’adaptent à différents écrans (ordinateur, tablette, mobile, etc.).
 
 32. Qu’est-ce qu’un pseudo élément en CSS ?
+
+Un pseudo-élément en CSS est une fonctionnalité qui permet de styliser des parties spécifiques d'un élément HTML sans modifier directement le code HTML
+Un pseudo-élément est précédé de deux-points (::) exemple: ::before, ::after...
+Les pseudo-éléments sont souvent utilisés pour ajouter des effets visuels ou du contenu décoratif sans alourdir le HTML. 
+Ils sont très utiles pour améliorer l'esthétique ou la lisibilité des interfaces web.
+
 33. Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
+
+Bootstrap est un framework CSS open-source développé par Twitter qui permet de créer des interfaces web responsives et modernes rapidement. 
+Il fournit un ensemble d'outils prêts à l'emploi comme des grilles, des composants UI (boutons, formulaires, cartes, etc.), 
+et des classes utilitaires pour styliser des éléments HTML.
+les autres framework équivalentes à Bootstrap on peux avoir Bulma, Foundation, Ulkit...
+
 34. Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+
+Lorsqu'un formulaire HTML est créé, les deux méthodes principales qui peuvent lui être associées sont GET et POST. 
+Ces méthodes sont définies via l'attribut method de la balise <form>.
+la différence entre la methode POST et la methode GET est que avec la premiere methode(POST), : Les données du formulaire sont envoyées dans le corps de la requête HTTP, 
+et non dans l'URL.
+Avec la methode GET par contre Les données du formulaire sont envoyées via l'URL en tant que paramètres de requête.
 
 ## UX UI
 
